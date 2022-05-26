@@ -1,0 +1,2 @@
+export const ADD_SYSTEM_DATA = 'ADD_SYSTEM_DATA'
+export const GET_SYSTEM_DATA = 'GET_SYSTEM_DATA'

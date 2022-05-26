@@ -1,0 +1,164 @@
+/* Table css */
+.header {
+  position: sticky;
+  top: 0;
+}
+.tableContainer {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+
+h1 {
+  color: green;
+}
+.rowColor {
+  background-color: #04aa6d;
+}
+.simpleBtn {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 2px;
+  margin-bottom: 8px;
+  background: rgba(241, 241, 247, 0.973);
+  color: black;
+  font-size: 15px;
+  border: 1px solid rgb(221, 221, 221);
+}
+.saveCloseBtn {
+  width: 15%;
+  padding: 5px 10px;
+  margin: 2px;
+  background: rgba(241, 241, 247, 0.973);
+  color: black;
+  font-size: 15px;
+}
+
+/* Add Company Form Style */
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  /* outline: 1px solid hsla(0, 0%, 0%, 0.986); */
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+.btnContainer {
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.companyBox {
+  border: 1px solid white;
+  margin-bottom: 2px;
+}
+.col-40 {
+  float: left;
+  width: 40%;
+  margin-top: 2px;
+}
+
+.col-60 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-40,
+  .col-60,
+  input[type="submit"],
+  .saveCloseBtn {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.totalCompany {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 3px;
+}
+
+.rowGreen {
+  background-color: rgb(223, 223, 29);
+  box-shadow: 13px 13px 3px;
+}
+.rowRed {
+  background-color: red;
+  box-shadow: 13px 13px 13px;
+}
+ 
+/* input:required {
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+input:required:invalid {
+  border-color: #634e4e;
+} */
+/* input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+input:required:hover {
+  opacity: 1;
+} */
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #00FF00;
+  color: #111;
+  font-size: 150%;
+  position: absolute;
+  padding: 1px 5px 2px 5px;
+  bottom: -1.6em;
+  left: 100%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #111111;
+  z-index: 99999;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
+}

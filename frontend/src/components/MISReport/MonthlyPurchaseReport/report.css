@@ -1,0 +1,69 @@
+h1, p {
+  font-family: Lato;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.thead th{
+    background: #bebaba;
+}
+td, th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+@media print{
+	.hide-on-print{
+		display: none;
+	}
+}
+.printModal{
+    width:70vw;
+    max-width: 70vw;
+}
+.topSection{
+  text-align: center;
+}
+.topSection .titleSection{
+    display: inline;
+   
+}
+.mainSection{
+ display: flex;
+ 
+ justify-content: center;
+}
+.leftSection{
+  flex: 3;
+}
+.centerSection{
+flex: 5;
+text-align: center;
+ 
+}
+.centerSection h4{
+  font-weight: bold;
+  font-size: 20px;
+}
+.centerSection h5{
+  font-weight: bold;
+  font-size: 18px;
+}
+.rightSection{
+  flex: 4;
+}
+.printReport{
+    display: block;
+    margin-bottom: 10px;
+}
+.mainDiv{
+    margin: 5px;
+}

@@ -1,0 +1,86 @@
+
+/* Login Style */
+.loginContainer{
+   
+    background-color: #422057ff;
+    
+}
+.loginPage{
+    padding-top: 20px;
+    margin: 160px auto;
+    background-color: rgb(164, 174, 184);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+    border-radius: 5px;
+    
+}
+.loginForm{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.loginField{
+    
+ width: 100%;
+ margin-bottom: 10px;
+ margin-left: 10%;
+ 
+ 
+}
+.loginField label{
+   width: 25%;
+   font-size: 20px;
+    display: inline;
+   
+}
+.loginField Input{
+    
+    width: 70%;
+    padding: 8px 15px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+
+}
+.loginField Input:focus{
+     outline: none;
+     
+}
+.loginBtn {
+    width:70%;
+    margin-left: 10%;
+    padding-top: 10px;
+    
+} 
+.loginBtn button {
+  width: 100%;
+  background-color: #0b2df0;
+  color: white;
+  padding: 10px 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.loginBtn button:hover{
+    background-color: rgb(8, 28, 46);
+    color: black;
+    color: white;
+}
+.forgotPassword{
+    width:60%;
+    margin-left: 15%;
+    text-align: center;
+    padding-bottom: 20px;
+} 
+.forgotPassword span a{
+   
+    color: white  ;
+}
+.forgotPassword span a:hover{
+   
+    color: rgb(245, 11, 11)  ;
+}

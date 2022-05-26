@@ -1,0 +1,23 @@
+p,
+h5,
+h6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.dashed_border_bottom {
+  border-bottom: 1px dashed black;
+}
+
+.dashed_border_top {
+  border-top: 1px dashed black;
+}
+
+.receipt_container {
+  width: 285px;
+  font-size: 10px;
+}
+
+.receipt_container h6 {
+  font-size: 11px;
+}

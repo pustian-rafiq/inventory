@@ -1,0 +1,17 @@
+.purchase-return-modal {
+    width: 85vw;   /* Occupy the 90% of the screen width */
+    max-width: 85vw;
+}
+.add-purchase-return-modal{
+    width: 70vw;   /* Occupy the 90% of the screen width */
+    max-width: 70vw;
+}
+.add-supplier-modal{
+
+    width: 55vw;   /* Occupy the 90% of the screen width */
+    max-width: 55vw;
+}
+.tableStyle{
+    height: 5px;
+    font-size: 12px;
+}

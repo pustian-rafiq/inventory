@@ -1,0 +1,55 @@
+
+
+.add-credit-sales{
+    width: 80vw;
+    max-width:80vw;
+ 
+}
+
+ .sales-modal {
+    width: 95vw;   
+    max-width: 95vw;
+} 
+/* .addSlaesBtn{
+     width: 100%;
+     height: 30px;
+     padding: 0 5px 0 0;
+     text-align: center;
+     background: rgba(241, 241, 247, 0.973);
+} */
+.searchInputBox{
+    background-color: antiquewhite;
+  
+}
+.addCustomerBtn{
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+    height: 30px;
+    padding: 0 5px 0 0;
+}
+ 
+
+@media only screen and (max-width: 767px) {
+ .addCustomerBtn{
+     font-size: 13px;
+     
+ }
+ .searchInputBox{
+     height: 100%;
+ }
+ .salesBtnGroup{
+     margin-bottom: 3px;
+ }
+
+}
+.warrantyBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.warrantyItem{
+    flex: 2.4;
+    margin-left: 3px;
+}

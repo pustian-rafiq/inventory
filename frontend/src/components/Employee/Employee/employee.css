@@ -1,0 +1,39 @@
+.employeeImage{
+ 
+    width: 100%;
+    text-align: center;
+ 
+}
+.employeeImageBox p{
+     
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    padding: 20px auto;
+    
+}
+.employeeFile label{
+    color: black;
+    margin: 5px 0;
+    background: #f1ecec;
+    
+    display: block;
+    padding: 10px 20px;
+    
+}
+@media screen and (max-width: 991px) {
+   .employeeImage{
+        height: auto;
+        width: 100%;
+       
+   }
+   .employeeImageBox p{
+     
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+     text-align: center;
+}
+}

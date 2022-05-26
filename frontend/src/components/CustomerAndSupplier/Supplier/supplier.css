@@ -1,0 +1,44 @@
+.modalSize{
+   
+     
+}
+
+.supplierImage{
+   
+    width: 100%;
+    text-align: center;
+ 
+}
+.supplierImageBox p{
+     
+    height: 240px;
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    
+}
+.supplierFile label{
+    color: black;
+    margin: 5px 0;
+    background: #f1ecec;
+    
+    display: block;
+    padding: 5px 20px;
+    
+}
+@media screen and (max-width: 991px) {
+   .supplierImage{
+        height: auto;
+        width: 100%;
+       
+   }
+   .supplierImageBox p{
+     
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+     text-align: center;
+    
+}
+}

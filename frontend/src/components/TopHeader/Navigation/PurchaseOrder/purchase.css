@@ -1,0 +1,31 @@
+.purchase {
+    width: 90vw;   /* Occupy the 90% of the screen width */
+    max-width: 90vw;
+   
+}
+.supplier-modal {
+    width: 15vw;   /* Occupy the 90% of the screen width */
+    max-width: 15vw;
+    color: red;
+  
+   
+}
+.add-modal {
+    width: 85vw;   /* Occupy the 90% of the screen width */
+    max-width: 85vw;
+}
+.product-modal {
+    width: 65vw;   /* Occupy the 90% of the screen width */
+    max-width: 65vw;
+}
+.supplierBox{
+    border: 1px solid white;
+}
+.productBox{
+    border: 1px solid white;
+}
+.containerBox{
+    width: 100%;
+    
+    border: 1px solid white;
+}

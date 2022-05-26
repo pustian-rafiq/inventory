@@ -1,0 +1,9 @@
+.sales-retun-modal {
+    width: 90vw;   /* Occupy the 90% of the screen width */
+    max-width: 90vw;
+}
+
+.add-purchase-return-modal{
+    width: 70vw;   /* Occupy the 90% of the screen width */
+    max-width: 70vw;
+}

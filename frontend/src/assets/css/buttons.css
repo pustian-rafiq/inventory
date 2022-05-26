@@ -1,0 +1,168 @@
+/* checkbox style */
+.control {
+  font-family: arial;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control_indicator_checkbox {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #c7c7c7;
+  border: 3px solid #e8e8e8;
+  border-radius: 0px;
+}
+.control:hover input ~ .control_indicator_checkbox,
+.control input:focus ~ .control_indicator_checkbox {
+  background: #cccccc;
+}
+
+.control input:checked ~ .control_indicator_checkbox {
+  /* background: #0e6647; */
+  background: linear-gradient(218deg, #0578c4, #487665);
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 0%) 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator_checkbox,
+.control input:checked:focus ~ .control_indicator_checkbox {
+  background: linear-gradient(218deg, #0578c4, #487665);
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 0%) 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+.control input:disabled ~ .control_indicator_checkbox {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control_indicator_checkbox:after {
+  box-sizing: unset;
+  content: "";
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control_indicator_checkbox:after {
+  display: block;
+}
+.control-checkbox .control_indicator_checkbox:after {
+  left: 5px;
+  top: 1px;
+  width: 3px;
+  height: 8px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator_checkbox:after {
+  border-color: #7b7b7b;
+}
+
+/* radio btn style */
+.control-btn {
+  font-family: arial;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  height: 27px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.control-btn input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control_indicator {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background: #949494;
+  border: 3px solid #e8e8e8;
+  border-radius: undefinedpx;
+}
+.control-btn:hover input ~ .control_indicator,
+.control-btn input:focus ~ .control_indicator {
+  background: #bababa;
+}
+
+.control-btn input:checked ~ .control_indicator {
+  /* background: #0e6647; */
+  background: linear-gradient(168deg, #53c4f4, #07384d);
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 0%) 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+.control-btn:hover input:not([disabled]):checked ~ .control_indicator,
+.control-btn input:checked:focus ~ .control_indicator {
+  background: linear-gradient(168deg, #53c4f4, #07384d);
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 0%) 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+.control-btn input:disabled ~ .control_indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control_indicator:after {
+  box-sizing: unset;
+  content: "";
+  position: absolute;
+  display: none;
+}
+.control-btn input:checked ~ .control_indicator:after {
+  display: block;
+}
+.control-btn-radio .control_indicator {
+  border-radius: 50%;
+}
+
+.control-btn-radio .control_indicator:after {
+  left: 2px;
+  top: 1px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  transition: background 250ms;
+}
+.control-btn-radio input:disabled ~ .control_indicator:after {
+  background: #7b7b7b;
+}
+
+.modal-btn {
+  background: linear-gradient(177deg, #f0f3f6, #b4b4b4);
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: 1px solid #8c8c8c;
+  transition: all ease-in-out 0.3s;
+  font-weight: bold;
+}
+.modal-btn:hover {
+  box-shadow: #00000029 0px 1px 4px, #00e1ff 0px 0px 0px 1px;
+}

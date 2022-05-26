@@ -1,0 +1,34 @@
+.edit-credit-sales {
+    width: 80vw;   
+    max-width: 80vw;
+  
+  }
+  .credit-sales-modal {
+    width: 98vw;   
+    max-width: 98vw;
+  
+  }
+.chekcPaid{
+  padding-top: 10px;
+}
+  @media screen and (max-width: 991px) {
+    .addSlaesBtn{
+      margin-top: 25px;
+      background: rgba(241, 241, 247, 0.973);
+    }
+    .chekcPaid{
+      padding-top: 0px;
+    }
+    
+  }
+  @media screen and (max-width: 767px) {
+    .addSlaesBtn{
+      margin-top: 2px;
+      background: rgba(241, 241, 247, 0.973);
+    }
+    
+  }
+  .editCreditTable{
+    height: 5px;
+    font-size: 12px;
+  }

@@ -1,0 +1,69 @@
+
+.misReportBox{
+   border: 1px solid white;
+   margin-bottom: 2px;
+   position: relative;
+  
+ }
+.all-report-modal{
+    width: 80vw;
+    max-width: 80vw;
+}
+
+ /* All Report Style */
+ .reports{
+    
+    height:100%;   
+    width: 100%;
+      
+} 
+ .firstBox{
+   position: relative;
+   margin-left: 0px;
+ 
+ }
+ 
+
+ .reportBox{
+ 
+   
+    color: rgba(17, 16, 16, 0.801);
+    padding: 20px 0px;
+    margin: 4px 0px;
+    margin-left: 3px;
+    height: 90px;
+    width: 105px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: normal;
+    border-radius: 2px;
+ }
+ /* .navSection:nth-child(1){
+    background: rgb(190, 18, 18);
+ } */
+ .reportBox:hover{
+
+    background-color: rgba(12, 5, 15, 0.952);
+    color: white;
+    box-shadow: 0px 5px 5px #9fa0a1;
+    transform: scale(1.1);
+    /* transform: rotate(-15deg); */
+    transition: 0.3s;
+    font-size: 13px;
+
+ }
+ .reportBox:hover p{
+   transition: 0s;
+ }
+
+ .installment-collection{
+
+   width:80vw;
+   max-width: 80vw;
+ }
+
+
+ /* MIS REPORT Shaow and scalble with transition */
+
+ 

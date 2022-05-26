@@ -1,0 +1,77 @@
+
+/* Login Style */
+.registerContainer{
+   
+    background-color: #422057ff;
+    
+}
+.registerPage{
+    padding-top: 20px;
+    margin: 160px auto;
+    background-color: rgb(164, 174, 184);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+     
+    border-radius: 5px;
+    
+}
+.registerForm{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+.registerField{
+    
+ width: 100%;
+ 
+}
+.registerField label{
+   width: 100%;
+   font-size: 20px;
+   margin-bottom: -10px;
+}
+.registerField input{
+    
+    width: 100%;
+    padding: 8px 15px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    outline:none;
+
+}
+.registerBtn input[type=text]{
+ outline:none;
+}
+.registerField input:focus{
+     outline: none;
+     
+}
+.editableField label{
+   width: 25%;
+   font-size: 20px;
+}
+ 
+.registerBtn {
+    width:60%;
+    margin-left: 25%;
+    padding-bottom: 70px;
+} 
+.registerBtn input[type=submit] {
+  width: 100%;
+  background-color: #0b2df0;
+  color: white;
+  padding: 10px 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.registerBtn input[type=submit]:hover{
+    background-color: rgb(8, 28, 46);
+    color: black;
+    color: white;
+}
+ 

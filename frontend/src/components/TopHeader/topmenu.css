@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+.personal-details h4{
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+}
+
+.personal-details p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:2px;
+}
+
+.social{}
+.social ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 15px;
+}
+.social ul li{
+    display: inline-block;
+    margin: 0px 7px;
+    padding: 0px
+}
+.fa-facebook{
+    color: #fff;
+    background-color: royalblue;
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fa-twitter{
+    color: #fff;
+    background-color: rgb(28, 192, 221);
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fa-google{
+    color: #fff;
+    background-color: rgb(221, 67, 28);
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.admin-style{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    /* background: linear-gradient(to left, #25bdcd, #938dad); */
+    /* color: #eaeaf1; */
+    color: rgb(66, 62, 62);
+    padding: 5px 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-top: 6px;
+    text-transform: uppercase;
+}

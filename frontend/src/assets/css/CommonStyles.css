@@ -1,0 +1,61 @@
+.customDueReport-main {
+  background-color: #97b4d4;
+}
+.custom-label {
+  width: 40%;
+  margin: 0;
+}
+.custom-input {
+  width: 70% !important;
+}
+.custom-icon {
+  padding: 0px 9px;
+  font-size: 25px;
+  margin: 0 4px;
+  color: #00b1f9;
+  background: linear-gradient(40deg, #c5c5c5, #ffffff);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .custom-label {
+    width: 100%;
+  }
+  .custom-input {
+    width: 100% !important;
+  }
+  .custom-icon {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .custom-label {
+    width: 100%;
+  }
+  .custom-input {
+    width: 100% !important;
+  }
+  .custom-icon {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
